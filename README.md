@@ -56,11 +56,13 @@ Apply database migrations:
 ```
 python manage.py makemigrations
 python manage.py migrate
+```
 Create a superuser (for admin access):
 
-python manage.py createsuperuser
-
 ```
+python manage.py createsuperuser
+```
+
 
 Start the development server:
 ```
