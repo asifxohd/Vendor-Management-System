@@ -24,9 +24,7 @@ Clone the repository:
 
 ```bash
 
-Copy code
-
-[git clone https://github.com/yourusername/vendor-management-system.git](https://github.com/asifxohd/Vendor-Management-System.git)
+git clone https://github.com/yourusername/vendor-management-system.git
 ```
 cd vendor-management-system
 
