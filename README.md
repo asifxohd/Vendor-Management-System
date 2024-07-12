@@ -59,10 +59,10 @@ python manage.py migrate
 Create a superuser (for admin access):
 
 python manage.py createsuperuser
-Start the development server:
 
 ```
 
+Start the development server:
 ```
 python manage.py runserver
 ```
