@@ -39,16 +39,6 @@ Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-Apply database migrations:
-```
-python manage.py migrate
-Create a superuser (for admin access):
-
-python manage.py createsuperuser
-Start the development server:
-
-```
-
 
 Update the database configurations in VMS/settings.py:
 ```
@@ -64,6 +54,17 @@ DATABASES = {
 }
 ```
 
+Apply database migrations:
+```
+python manage.py makemigrations
+python manage.py migrate
+Create a superuser (for admin access):
+
+python manage.py createsuperuser
+Start the development server:
+
+```
+
 python manage.py runserver
 Access the API endpoints locally at http://localhost:8000/api/
 
@@ -73,25 +74,39 @@ Vendors
 
 POST /api/vendors/
 Create a new vendor.
+
 GET /api/vendors/
 List all vendors.
+
 GET /api/vendors/{vendor_id}/
 Retrieve details of a specific vendor.
+
 PUT /api/vendors/{vendor_id}/
 Update details of a specific vendor.
+
 DELETE /api/vendors/{vendor_id}/
 Delete a specific vendor.
+
 Purchase Orders
 POST /api/purchase_orders/
 Create a new purchase order.
+
 GET /api/purchase_orders/
 List all purchase orders.
+
 GET /api/purchase_orders/{po_id}/
 Retrieve details of a specific purchase order.
+
 PUT /api/purchase_orders/{po_id}/
 Update details of a specific purchase order.
+
 DELETE /api/purchase_orders/{po_id}/
 Delete a specific purchase order.
+
 Vendor Performance
 GET /api/vendors/{vendor_id}/performance/
 Retrieve performance metrics for a specific vendor.
+
+
+## Authentication
+API endpoints are secured with token-based authentication. create a tockend with superuser credentials and use it 
