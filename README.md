@@ -65,7 +65,9 @@ Start the development server:
 
 ```
 
+```
 python manage.py runserver
+```
 Access the API endpoints locally at http://localhost:8000/api/
 
 ## API Endpoints
@@ -109,4 +111,4 @@ Retrieve performance metrics for a specific vendor.
 
 
 ## Authentication
-API endpoints are secured with token-based authentication. create a tockend with superuser credentials and use it 
+API endpoints are secured with token-based authentication. create a tocken with superuser credentials and use it to get a tocken 
