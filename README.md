@@ -112,3 +112,6 @@ Retrieve performance metrics for a specific vendor.
 
 ## Authentication
 API endpoints are secured with token-based authentication. create a tocken with superuser credentials and use it to get a tocken 
+
+## Testing 
+start testing the API with postman with the access tockend from the superuser credentials (for testing purpose only) 
